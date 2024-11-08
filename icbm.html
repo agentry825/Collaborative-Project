@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+    <style>
+        .column {
+            float: left;
+            width: 49%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intercontinental Ballistic Missiles</title>
@@ -8,5 +24,18 @@
 <body>
     <h1>Computers and ICBMs</h1>
     <p>Computers are used to guide intercontinental ballistic missiles. They go boom. Therefore people don't want to start wars against people with intercontinental ballistic missiles. Consequently, the existence of intercontinental ballistic missiles leads to peace in our time. Ergo, computers give us peace on earth.</p>
+    <p>This concept is known as <a href="https://en.wikipedia.org/wiki/Mutual_assured_destruction">mutually assured destruction</a> or MAD.</p>
+    
+    <div class="row">
+        <div class="column">
+            <img src="MAD.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="MAD2.jpg" style="width:73.5%">
+        </div>
+    </div>
+
+    <p>computers = peace</p>
+    <p>Thank you for coming to my TED talk</p>
 </body>
 </html>
