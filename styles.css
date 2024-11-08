@@ -14,3 +14,9 @@
     width: 16.75em;
     opacity: 85%;
 }
+
+#topleftbox {
+    height: 10%;
+    width: auto;
+    top: 10%;
+}
