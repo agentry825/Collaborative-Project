@@ -15,8 +15,7 @@
     opacity: 85%;
 }
 
-#topleftbox {
-    height: 10%;
-    width: auto;
-    top: 10%;
+.entertainment-img {
+    height: 40%;
+    width: 30%;
 }
